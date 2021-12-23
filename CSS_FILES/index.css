@@ -1,0 +1,242 @@
+/* BODY OF THE PAGE */
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "times new roman";
+    width:  100%;
+}
+
+/* HEADER OF THE PAGE */
+ul.container{
+    margin: 0px;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    padding: 0 10px;
+    display: inline;
+}
+.left-header{
+    margin-right: 40vh;
+    height: 25px;
+    width: 50%;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 5px 6px lightgrey;
+    padding: 10px;
+    background: #0066CC;
+}
+.home{
+    height: 25px;
+    width: 10%;
+    margin-left: 1vh;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 5px 6px lightgrey;
+    padding: 10px;
+    background: #66CCFF;
+}
+.contact{
+    height: 25px;
+    width: 10%;
+    margin-left: 1vh;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 5px 6px lightgrey;
+    padding: 10px;
+    background: #339933;
+}
+.container a{
+    text-decoration: none;
+    color: #FFF;
+}
+.left-header:hover{
+    background: #FF9900;
+    color: #FF3300;
+}
+.container a:hover{
+    color: #FF3300;
+}
+.home:hover{
+    background: #FF9900;
+    color: #FF3300;
+}
+.contact:hover{
+    background: #FF9900;
+    color: #FF3300;
+}
+
+/* MAIN BODY OF THE PAGE */
+main.container{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+}
+#inec{
+    margin:10px 20vh;
+    align-items: center;
+    margin-left:;
+    border: 1px solid grey;
+    border-radius: 7px;
+    width: 60%;
+    height: 50px;
+    padding: 0 0 15px;
+    text-align: center;
+    background: lightgrey;
+}
+
+/* UPPER BODY */
+.upper-body{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 130px;
+}
+.parties{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 320px;
+    width: 40%;
+    font-size: 20px;
+    margin: 20px;
+    padding:10px;
+    box-shadow: 5px 5px lightgrey;
+    background: #669900
+}
+.news-feeds{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 320px;
+    width: 40%;
+    font-size: 20px;
+    margin: 20px;
+    padding:10px;
+    box-shadow: 5px 5px lightgrey;
+    background: #FFCC00;
+}
+.list{
+    height: 80%;
+    width: 100%;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+.feeds{
+    height: 80%;
+    width: 100%;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+ol{
+   
+}
+li{
+    display: block;
+    color: #fff;
+}
+.parties p {
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    border: 8px solid #FF9900;
+    height: 20px;
+    color: #009933;
+    background: #fff;
+}
+p#news{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    border: 8px solid #669900;
+    height: 20px;
+    color: #3399FF;
+    background: #fff;
+}
+
+/* LOWER BODY OF THE PAGE */
+.lower-body{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 30px;
+    margin: 0 10vh;
+    
+}
+.new-party{
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;;
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 0 70px;
+    background: #000;
+
+}
+.lower-body p{
+    display: block;
+    background: #fff;
+    height: 20px;
+    padding: 5px;   
+}
+button{
+    height: 30px;
+    width: 100%;
+    
+}
+
+
+.staff{
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;;
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 0 40px;
+    background: #FFCC99;
+
+}
+.staff p{
+    display: block;
+    background: #fff;
+    height: 20px;
+    padding: 5px;   
+}
+button{
+    height: 30px;
+    width: 100%;
+    
+}
+
+
+.admin{
+    display: block;
+    border: 1px solid grey;
+    border-radius: 10px;;
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 0 50px;
+    background: #009900;
+
+}
+.admin p{
+    display: block;
+    background: #fff;
+    height: 20px;
+    padding: 5px;   
+}
+button{
+    height: 30px;
+    width: 100%;
+    
+}

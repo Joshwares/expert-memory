@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: ;
+	background-size: 100%;
+}
+.jumbotron{
+    padding: 35px;
+}
+.row{
+    margin: 0;
+    margin-top: ;
+}
+.profile{
+    margin: 0;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    font-size: 3vh;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.profile a{
+    font-size: 15px
+}
+.party{
+    margin: 0;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    font-size: 3vh;
+    text-align: center;
+    background-color: whitesmoke;
+}
+.party a{
+    font-size: 15px
+}
+.dash.glyphicon{
+    font-size: 4vh;
+    color: #0099FF;
+}

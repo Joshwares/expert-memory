@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url('../../img/img_5.png');
+	background-repeat: no-repeat;
+	background-attachment: ;
+	background-size: 100%;
+}
+.jumbotron{
+    margin: 0;
+    padding: 30px;
+    height: 200px;
+}
+.parties, .staffs, .admin{
+    margin: 0 10px 0 10px;
+}
+.parties{
+	margin: 0;
+    border: 1px solid grey;
+    padding: 12px 0 10px;
+    border-radius: 6px;
+}
+.staffs{
+	margin: 0;
+    border: 1px solid grey;
+    padding: 12px 0 10px;
+    border-radius: 6px;
+}
+.admin{
+	margin: 0;
+    border: 1px solid grey;
+    padding: 12px 0 10px;
+    border-radius: 6px;
+}
+
+/* LIST OF REGISTERE PARTIES */
+
+.party_lists{
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    padding: 0 20px;
+    background-color: whitesmoke;
+    color: #000;
+    width: 35%;
+    height: 50vh;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+.list{
+    color: #000;
+    width: 100%;
+    height: 42vh;
+    overflow-y: scroll;
+}
+li{
+    list-style: none;
+    font-size: 16px;
+}
+h2{
+    text-align: center;
+    text-decoration: underline
+}
